@@ -81,6 +81,7 @@ export const APPS: AppEntry[] = [
   web('accounts', 'Bansify Accounts', 'One identity, one sign-in for every Bansify product.', 'accounts', Fingerprint, 'bg-orange-500', { badge: 'Identity' }),
   web('mail', 'Bansify Mail', 'Fast webmail for your @bansify.com address.', 'mail', Mail, 'bg-[#0494f4]', { badge: 'Core' }),
   web('drive', 'Bansify Drive', 'Files, folders and sharing in the cloud.', 'drive', HardDrive, 'bg-emerald-500', { badge: 'Core' }),
+  web('meet', 'Bansify Meet', 'Video meetings on the same account, no install needed.', 'meet', Video, 'bg-blue-600', { badge: 'Core' }),
   web('pay', 'Bansify Pay', 'Plans and add-ons that unlock more across the ecosystem.', 'pay', ShoppingBag, 'bg-[#0494f4]', { badge: 'Billing' }),
   web('ai', 'Bansify AI', 'One workspace for every AI model, on a single account.', 'ai', Bot, 'bg-violet-500'),
   web('browser', 'Bansify Browser', 'A sovereign browser for Android phones and TV.', 'browser', Globe, 'bg-sky-500'),

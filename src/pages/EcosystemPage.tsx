@@ -33,10 +33,10 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
           Ecosystem Directory
         </div>
         <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-zinc-900 dark:text-white">
-          All Gothwad products — <span className="text-[#0494f4]">direct links</span>
+          All Bansify products — <span className="text-[#0494f4]">direct links</span>
         </h1>
         <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl mx-auto">
-          Every Gothwad product in one place. Each card shows the live subdomain (<code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-xs">{'{host}.gothwadtech.com'}</code>), a short description, GitHub repo and one-click access. Connected apps use your Gothwad Account; standalone apps use “Sign in with Gothwad”.
+          Every Bansify product in one place. Each card shows the live subdomain (<code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-xs">{'{host}.bansify.com'}</code>), a short description, GitHub repo and one-click access. Connected apps use your Bansify Account; standalone apps use “Sign in with Gothwad”.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
       </div>
 
       <div className="mt-3 text-xs text-zinc-500 dark:text-zinc-500 text-center">
-        Showing {apps.length} {apps.length === 1 ? 'product' : 'products'} • Core = Gothwad Account connected (cannot be revoked) • Others = “Sign in with Gothwad” (revocable)
+        Showing {apps.length} {apps.length === 1 ? 'product' : 'products'} • Core = Bansify Account connected (cannot be revoked) • Others = “Sign in with Gothwad” (revocable)
       </div>
 
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -106,7 +106,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
                   </a>
                 )}
               </div>
-              <div className="mt-2 text-[11px] font-mono text-zinc-500 dark:text-zinc-500 text-center truncate">{app.host}.gothwadtech.com</div>
+              <div className="mt-2 text-[11px] font-mono text-zinc-500 dark:text-zinc-500 text-center truncate">{app.host}.bansify.com</div>
             </div>
           );
         })}
@@ -116,7 +116,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="p-5 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
           <h3 className="text-sm font-bold text-zinc-900 dark:text-white">A connected ecosystem</h3>
-          <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-1.5 leading-relaxed">Accounts, Mail, Drive, Meet and Store live alongside standalone products in the same Gothwad Account directory — same as our docs portal.</p>
+          <p className="text-xs text-zinc-600 dark:text-zinc-400 mt-1.5 leading-relaxed">Accounts, Mail, Drive, Meet and Store live alongside standalone products in the same Bansify Account directory — same as our docs portal.</p>
         </div>
         <div className="p-5 rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
           <h3 className="text-sm font-bold text-zinc-900 dark:text-white">Web & mobile, side by side</h3>
@@ -129,7 +129,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
       </div>
 
       <div className="mt-6 text-center text-xs text-zinc-500 dark:text-zinc-500">
-        Need OAuth integration? <a href="https://docs.gothwadtech.com/docs/oauth" target="_blank" rel="noreferrer" className="text-[#0494f4] hover:underline">Read Sign in with Gothwad (PKCE)</a> • Deploy your own <a href="https://docs.gothwadtech.com/docs/cloudflare" target="_blank" rel="noreferrer" className="text-[#0494f4] hover:underline">to Cloudflare Pages</a>
+        Need OAuth integration? <a href="https://docs.bansify.com/docs/oauth" target="_blank" rel="noreferrer" className="text-[#0494f4] hover:underline">Read Sign in with Bansify (PKCE)</a> • Deploy your own <a href="https://docs.bansify.com/docs/cloudflare" target="_blank" rel="noreferrer" className="text-[#0494f4] hover:underline">to Cloudflare Pages</a>
       </div>
     </div>
   );

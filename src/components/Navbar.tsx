@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, onNavigate }) => {
         manageAccountHref: `${ACCOUNTS_WEB_ORIGIN}/u/${authuser}/me`,
         accountsWebOrigin: ACCOUNTS_WEB_ORIGIN,
         accountsApiOrigin: `${ACCOUNTS_API_ORIGIN}/api`,
-        appDomain: 'gothwadtech.com',
+        appDomain: 'bansify.com',
         accountHref: (acct: any) => buildAccountSlotPath(acct.authuser ?? 0),
         onSwitchAccount: async (target: any) => {
           const res = await switchGothwadAccountSlot(target.id, target.authuser ?? 0);
@@ -68,27 +68,27 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, onNavigate }) => {
     );
   };
 
-  const signInHref = buildSignInUrl(typeof window !== 'undefined' ? window.location.href : 'https://gothwadtech.com');
+  const signInHref = buildSignInUrl(typeof window !== 'undefined' ? window.location.href : 'https://bansify.com');
 
   return (
     <header className="fixed top-0 inset-x-0 z-40 bg-white dark:bg-zinc-950 border-b border-zinc-200/0 dark:border-zinc-800/0">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-4">
         <div className="flex items-center gap-4">
           {!isHome && (
-            <button onClick={() => onNavigate('home')} className="flex items-center gap-2 cursor-pointer" aria-label="Gothwad Tech home">
+            <button onClick={() => onNavigate('home')} className="flex items-center gap-2 cursor-pointer" aria-label="Bansify home">
               <Logo size="sm" imageSrc="/assets/brand/logo.png" />
             </button>
           )}
           <nav className="hidden sm:flex items-center gap-4 text-[13px] text-zinc-600 dark:text-zinc-400">
             <button onClick={() => onNavigate('company')} className="hover:underline cursor-pointer">About</button>
-            <a href="https://store.gothwadtech.com" target="_blank" rel="noreferrer" className="hover:underline">Store</a>
+            <a href="https://store.bansify.com" target="_blank" rel="noreferrer" className="hover:underline">Store</a>
           </nav>
         </div>
 
         <nav className="flex items-center gap-1 sm:gap-3 text-[13px]">
           <button onClick={() => onNavigate('ecosystem')} className="hidden sm:inline hover:underline cursor-pointer text-zinc-700 dark:text-zinc-300">Ecosystem</button>
           <button onClick={() => onNavigate('docs')} className="hidden sm:inline hover:underline cursor-pointer text-zinc-700 dark:text-zinc-300">Docs</button>
-          <a href="https://github.com/GothwadTech" target="_blank" rel="noreferrer" className="hidden sm:inline-flex items-center gap-1 hover:underline text-zinc-700 dark:text-zinc-300">GitHub</a>
+          <a href="https://github.com/Bansify" target="_blank" rel="noreferrer" className="hidden sm:inline-flex items-center gap-1 hover:underline text-zinc-700 dark:text-zinc-300">GitHub</a>
 
           {/* Auth-aware right end: Google rule — Sign in only when anonymous, else avatar */}
           {loading ? (
@@ -101,7 +101,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, onNavigate }) => {
               style={{
                 background: data.user.avatarUrl ? '#e5e7eb' : avatarColorFor(data.user.email || data.user.username || data.user.name || 'u'),
               }}
-              aria-label="Gothwad Account"
+              aria-label="Bansify Account"
             >
               {data.user.avatarUrl ? (
                 <img src={data.user.avatarUrl} alt={data.user.name || data.user.email} className="w-full h-full object-cover" referrerPolicy="no-referrer" />

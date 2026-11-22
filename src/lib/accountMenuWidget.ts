@@ -1,6 +1,6 @@
 /**
- * Gothwad Website — Account switcher (port of drive's accountMenuWidget)
- * Same Google-style sheet that Mail/Drive use, hosted at accounts.gothwadtech.com/widget/account-menu.js
+ * Bansify Website — Account switcher (port of drive's accountMenuWidget)
+ * Same Google-style sheet that Mail/Drive use, hosted at accounts.bansify.com/widget/account-menu.js
  * Falls back to inline shadow-DOM sheet when widget unreachable/offline.
  */
 import {

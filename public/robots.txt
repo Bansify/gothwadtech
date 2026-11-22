@@ -1,5 +1,5 @@
-# Gothwad Tech — https://gothwadtech.com
-# Primary domain is gothwadtech.com (non-www). www → apex 301.
+# Bansify — https://bansify.com
+# Primary domain is bansify.com (non-www). www → apex 301.
 
 User-agent: *
 Allow: /
@@ -20,10 +20,10 @@ Disallow: /*?*fbclid*
 Disallow: /*?*gclid*
 
 # Crawlers: obey crawl-friendly sitemap
-Sitemap: https://gothwadtech.com/sitemap.xml
+Sitemap: https://bansify.com/sitemap.xml
 
 # Host directive (legacy Bing support — canonical is via link rel=canonical + 301 in _redirects)
-Host: https://gothwadtech.com
+Host: https://bansify.com
 
 User-agent: GPTBot
 Allow: /

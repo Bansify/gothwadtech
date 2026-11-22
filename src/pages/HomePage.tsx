@@ -24,7 +24,7 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
         {/* Big logo — like Google doodle */}
         <div className="flex flex-col items-center gap-3">
           <Logo size="xl" imageSrc="/assets/brand/logo.png" className="scale-[1.08]" />
-          <h1 className="sr-only">Gothwad Tech — Official Website</h1>
+          <h1 className="sr-only">Bansify — Official Website</h1>
           <p className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-400 text-center tracking-tight">
             Everything Gothwad, in one place.
           </p>
@@ -97,7 +97,7 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
                     {app.name}
                   </span>
                   <span className="text-[10px] font-mono text-zinc-400 text-center truncate w-full hidden sm:block">
-                    {app.host}.gothwadtech.com
+                    {app.host}.bansify.com
                   </span>
                 </a>
               );
@@ -114,7 +114,7 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
 
         {/* Minimal language + India */}
         <div className="mt-8 text-center text-xs text-zinc-500 dark:text-zinc-500">
-          Offered by Gothwad Tech in: <span className="text-[#0494f4]">English • हिन्दी</span>
+          Offered by Bansify in: <span className="text-[#0494f4]">English • हिन्दी</span>
         </div>
       </div>
 
@@ -123,13 +123,13 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-zinc-600 dark:text-zinc-400">
           <div>India • Jaipur, Rajasthan • Aatmanirbhar Bharat</div>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
-            <a href="https://docs.gothwadtech.com" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1">
+            <a href="https://docs.bansify.com" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1">
               <BookOpen className="w-3 h-3" /> Docs
             </a>
-            <a href="https://github.com/GothwadTech" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1">
+            <a href="https://github.com/Bansify" target="_blank" rel="noreferrer" className="hover:underline flex items-center gap-1">
               <Github className="w-3 h-3" /> GitHub
             </a>
-            <a href="https://ceo.gothwadtech.com" target="_blank" rel="noreferrer" className="hover:underline">
+            <a href="https://ceo.bansify.com" target="_blank" rel="noreferrer" className="hover:underline">
               CEO
             </a>
             <button onClick={() => onNavigate('company')} className="hover:underline cursor-pointer">About</button>

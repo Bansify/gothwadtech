@@ -1,5 +1,5 @@
 /*
-  # Security & SEO headers for gothwadtech.com (apex canonical)
+  # Security & SEO headers for bansify.com (apex canonical)
   X-Robots-Tag: all
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
@@ -8,7 +8,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
-  Link: <https://gothwadtech.com/>; rel="canonical"
+  Link: <https://bansify.com/>; rel="canonical"
   Cache-Control: no-cache
 
 /assets/brand/*

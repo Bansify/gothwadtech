@@ -1,4 +1,5 @@
 import {
+  CreditCard,
   Fingerprint,
   Mail,
   HardDrive,
@@ -50,23 +51,42 @@ export interface EcosystemApp {
   available: boolean; // true if subdomain exists
 }
 
-export const ROOT_DOMAIN = 'gothwadtech.com';
+export const ROOT_DOMAIN = 'bansify.com';
 
 function url(host: string) {
   return `https://${host}.${ROOT_DOMAIN}`;
 }
 
 function repoUrl(repo: string) {
-  return `https://github.com/GothwadTech/${repo}`;
+  return `https://github.com/Bansify/${repo}`;
 }
 
 export const ECOSYSTEM_APPS: EcosystemApp[] = [
+  {
+    id: 'pay',
+    name: 'Bansify Pay',
+    tagline: 'One bill for everything',
+    description: 'Plans, add-ons and subscriptions for the whole ecosystem, with a shared entitlement API.',
+    host: 'pay',
+    href: url('pay'),
+    githubRepo: 'pay',
+    githubUrl: repoUrl('pay'),
+    icon: CreditCard,
+    accent: 'bg-[#0494f4]',
+    iconBg: 'bg-[#0494f4]/10 border-[#0494f4]/20',
+    iconText: 'text-[#0494f4]',
+    category: 'identity',
+    core: true,
+    badge: 'Billing',
+    platforms: ['Web', 'Cloudflare Workers'],
+    available: true,
+  },
   // ——————————————————————————————————
   // Identity & Core (account-connected)
   // ——————————————————————————————————
   {
     id: 'accounts',
-    name: 'Gothwad Accounts',
+    name: 'Bansify Accounts',
     tagline: 'One identity for everything',
     description: 'Sign in once. OAuth 2.0 + PKCE, session management and connected apps directory.',
     host: 'accounts',
@@ -85,9 +105,9 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'mail',
-    name: 'Gothwad Mail',
-    tagline: 'Your Gothwad inbox',
-    description: 'Edge-powered inbox. Send, receive and manage @gothwadtech.com email on Cloudflare.',
+    name: 'Bansify Mail',
+    tagline: 'Your Bansify inbox',
+    description: 'Edge-powered inbox. Send, receive and manage @bansify.com email on Cloudflare.',
     host: 'mail',
     href: url('mail'),
     githubRepo: 'mail',
@@ -104,7 +124,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'drive',
-    name: 'Gothwad Drive',
+    name: 'Bansify Drive',
     tagline: 'Files and folders',
     description: 'Cloud file storage with sharing, previews and Telegram-backed ClashDrive extension.',
     host: 'drive',
@@ -123,7 +143,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'meet',
-    name: 'Gothwad Meet',
+    name: 'Bansify Meet',
     tagline: 'Video meetings',
     description: 'WebRTC peer-to-peer meetings. No installs. Share links and meet face to face.',
     host: 'meet',
@@ -138,13 +158,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     core: true,
     badge: 'Core',
     platforms: ['Web', 'WebRTC'],
-    available: true,
+    available: false,
   },
   {
     id: 'calendar',
-    name: 'Gothwad Calendar',
+    name: 'Bansify Calendar',
     tagline: 'Events and reminders',
-    description: 'Schedule events, invites and reminders — synced with your Gothwad Account.',
+    description: 'Schedule events, invites and reminders — synced with your Bansify Account.',
     host: 'calender', // DNS record is actually spelled calender (kept compatible)
     href: url('calender'),
     githubRepo: 'calendar',
@@ -157,13 +177,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     core: true,
     badge: 'Core',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   {
     id: 'contacts',
-    name: 'Gothwad Contacts',
+    name: 'Bansify Contacts',
     tagline: 'People and addresses',
-    description: 'Manage contacts and address book, synced across Gothwad apps.',
+    description: 'Manage contacts and address book, synced across Bansify apps.',
     host: 'contacts',
     href: url('contacts'),
     githubRepo: 'contacts',
@@ -176,13 +196,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     core: true,
     badge: 'Core',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   {
     id: 'notes',
-    name: 'Gothwad Notes',
+    name: 'Bansify Notes',
     tagline: 'Notes and lists, synced',
-    description: 'Markdown notes with lists and quick capture, synced via Gothwad account.',
+    description: 'Markdown notes with lists and quick capture, synced via Bansify account.',
     host: 'notes',
     href: url('notes'),
     githubRepo: 'notes',
@@ -195,13 +215,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     core: true,
     badge: 'Core',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   {
     id: 'store',
-    name: 'Gothwad Store',
+    name: 'Bansify Store',
     tagline: 'Apps and add-ons',
-    description: 'Kiwi Store — India’s open-source app HUB. Discover and install Gothwad add-ons.',
+    description: 'Kiwi Store — India’s open-source app HUB. Discover and install Bansify add-ons.',
     host: 'store',
     href: url('store'),
     githubRepo: 'store',
@@ -214,16 +234,16 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     core: true,
     badge: 'Store',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   // ——————————————————————————————————
   // Consumer / Communication / Media
   // ——————————————————————————————————
   {
     id: 'tube',
-    name: 'Gothwad Tube',
+    name: 'Bansify Tube',
     tagline: 'A better way to watch',
-    description: 'Video discovery — PlusTube web platform + PlusTube app with Gothwad Account login.',
+    description: 'Video discovery — PlusTube web platform + PlusTube app with Bansify Account login.',
     host: 'tube',
     href: url('tube'),
     githubRepo: 'tubeweb',
@@ -235,7 +255,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'media',
     badge: 'Video',
     platforms: ['Web', 'Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'grixchat',
@@ -253,7 +273,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'communication',
     badge: 'Messenger',
     platforms: ['Web', 'Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'indogram',
@@ -271,11 +291,11 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'communication',
     badge: 'Cloud Messenger',
     platforms: ['Web', 'Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'browser',
-    name: 'Gothwad Browser',
+    name: 'Bansify Browser',
     tagline: 'Built for the bigger screen',
     description: 'Ultra-light Rust/C++ sovereign browser — 11.8 MB, 75% less RAM, TurboShield ad-block.',
     host: 'browser',
@@ -293,7 +313,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'launcher',
-    name: 'Gothwad Launcher',
+    name: 'Bansify Launcher',
     tagline: 'Android TV home',
     description: 'TV Launcher for Android TVs & tablets — simple, remote-friendly, ad-free recent apps.',
     host: 'launcher',
@@ -307,11 +327,11 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'devices',
     badge: 'Android TV',
     platforms: ['Android TV'],
-    available: true,
+    available: false,
   },
   {
     id: 'manager',
-    name: 'Gothwad Manager',
+    name: 'Bansify Manager',
     tagline: 'File manager for Android',
     description: 'All-in-one file manager — RTL, folder sizes, fast and efficient explorer.',
     host: 'manager',
@@ -325,14 +345,14 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'devices',
     badge: 'File Manager',
     platforms: ['Android', 'TV'],
-    available: true,
+    available: false,
   },
   {
     id: 'remotedesk',
-    name: 'Gothwad Remote Desktop',
+    name: 'Bansify Remote Desktop',
     tagline: 'Windows remote, zero-database',
     description: '100% Zero-Database Cloudflare Pages portal — Win11 OS + Hyper-V isolated VM, WebRTC P2P.',
-    host: 'remotedesk',
+    host: 'remotedesktop',
     href: url('remotedesk'),
     githubRepo: 'remotedesk',
     githubUrl: repoUrl('remotedesk'),
@@ -347,7 +367,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'internet',
-    name: 'Gothwad Internet',
+    name: 'Bansify Internet',
     tagline: 'Lightweight phone browser',
     description: 'Lightweight browser for Android phones — fastest, lightest multitasking with file manager.',
     host: 'internet',
@@ -361,11 +381,11 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'devices',
     badge: 'Phone Browser',
     platforms: ['Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'computer',
-    name: 'Gothwad Computer',
+    name: 'Bansify Computer',
     tagline: 'Desktop mode for Android',
     description: 'Android app that gives phones a desktop-like TV experience with external input support.',
     host: 'computer',
@@ -379,20 +399,20 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'devices',
     badge: 'Desktop',
     platforms: ['Android', 'TV'],
-    available: true,
+    available: false,
   },
   // ——————————————————————————————————
   // Education + Dev + AI
   // ——————————————————————————————————
   {
     id: 'education',
-    name: 'Gothwad Education',
+    name: 'Bansify Education',
     tagline: 'School & learning platform',
     description: 'Admin + Teacher + Student + Parent experiences. PWParent apps, fees, attendance, ERP.',
     host: 'education',
     href: url('education'),
     githubRepo: 'education',
-    githubUrl: 'https://github.com/GothwadTech/education',
+    githubUrl: 'https://github.com/Bansify/education',
     icon: GraduationCap,
     accent: 'bg-indigo-500',
     iconBg: 'bg-indigo-500/10 border-indigo-500/20',
@@ -400,7 +420,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'education',
     badge: 'ERP',
     platforms: ['Web', 'Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'clashdrive',
@@ -418,11 +438,11 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'productivity',
     badge: 'Storage',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   {
     id: 'ai',
-    name: 'Gothwad AI Studio',
+    name: 'Bansify AI Studio',
     tagline: 'Developer workspace',
     description: 'Mobile-first dev workspace: browse GH repos, manage files and edit code on the go.',
     host: 'ai',
@@ -442,8 +462,8 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     id: 'plusgit',
     name: 'PlusGit',
     tagline: 'Git for mobile',
-    description: 'Gothwad Git client — manage repositories from your phone with ease.',
-    host: 'plusgit',
+    description: 'Bansify Git client — manage repositories from your phone with ease.',
+    host: 'gitplus',
     href: repoUrl('plusgit'),
     githubRepo: 'plusgit',
     githubUrl: repoUrl('plusgit'),
@@ -461,7 +481,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   // ——————————————————————————————————
   {
     id: 'docs',
-    name: 'Gothwad Docs',
+    name: 'Bansify Docs',
     tagline: 'Developer documentation',
     description: 'Central source-based docs — Accounts OAuth/PKCE, Mail REST, Tube web, GrixChat, Meet & more.',
     host: 'docs',
@@ -475,13 +495,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'company',
     badge: 'Docs',
     platforms: ['Web'],
-    available: true,
+    available: false,
   },
   {
     id: 'ceo',
     name: 'CEO — Yuvkesh Meena',
     tagline: 'Leadership profile',
-    description: 'Meet Yuvkesh Meena, CEO of Gothwad Tech. Born in Dausa, Rajasthan.',
+    description: 'Meet Yuvkesh Meena, CEO of Bansify. Born in Dausa, Rajasthan.',
     host: 'ceo',
     href: url('ceo'),
     githubRepo: 'ceo',
@@ -497,11 +517,11 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'about',
-    name: 'About Gothwad Tech',
+    name: 'About Bansify',
     tagline: 'Corporate & company site',
     description: 'Learn about mission: Aatmanirbhar Bharat, sovereign consumer apps & enterprise solutions.',
     host: 'www',
-    href: 'https://www.gothwadtech.com',
+    href: 'https://www.bansify.com',
     githubRepo: 'gothwadtech',
     githubUrl: repoUrl('gothwadtech'),
     icon: Building2,
@@ -515,9 +535,9 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
   },
   {
     id: 'accountsapp',
-    name: 'Gothwad Accounts App',
+    name: 'Bansify Accounts App',
     tagline: 'Native account manager',
-    description: 'Android accounts companion: manage Gothwad identity on device.',
+    description: 'Android accounts companion: manage Bansify identity on device.',
     host: 'accountsapp',
     href: repoUrl('accountsapp'),
     githubRepo: 'accountsapp',
@@ -529,13 +549,13 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'identity',
     badge: 'Android',
     platforms: ['Android'],
-    available: true,
+    available: false,
   },
   {
     id: 'domains',
-    name: 'Gothwad Domains',
+    name: 'Bansify Domains',
     tagline: 'Ecosystem domains',
-    description: 'Public domain registry and routing map for Gothwad Tech.',
+    description: 'Public domain registry and routing map for Bansify.',
     host: 'domains',
     href: repoUrl('domains'),
     githubRepo: 'domains',
@@ -547,7 +567,7 @@ export const ECOSYSTEM_APPS: EcosystemApp[] = [
     category: 'company',
     badge: 'Registry',
     platforms: ['Git'],
-    available: true,
+    available: false,
   },
 ];
 
@@ -565,5 +585,5 @@ export const CATEGORIES = [
 
 export type CategoryId = (typeof CATEGORIES)[number]['id'];
 
-// Legacy alias for home portal quick shortcuts (mirrors GOTHWAD_APPS)
+// Legacy alias for home portal quick shortcuts (mirrors BANSIFY_APPS)
 export const PORTAL_FAVORITES = ['mail', 'drive', 'meet', 'tube', 'grixchat', 'browser', 'docs', 'accounts', 'education', 'store', 'ai', 'ceo'];

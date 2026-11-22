@@ -1,15 +1,15 @@
 # ============================================================
-# Gothwad Tech — Cloudflare Pages redirects & SEO canonical
-# Primary domain is https://gothwadtech.com (non-www).
+# Bansify — Cloudflare Pages redirects & SEO canonical
+# Primary domain is https://bansify.com (non-www).
 # We 301 redirect www → apex for canonical consistency (fixes Google
-# showing www.gothwadtech.com instead of gothwadtech.com).
+# showing www.bansify.com instead of bansify.com).
 # Order matters: specific redirects first, SPA fallback last.
 # ============================================================
 
 # 1) Enforce HTTPS + non-www canonical (SEO: stops www duplicate index)
-https://www.gothwadtech.com/* https://gothwadtech.com/:splat 301!
-http://www.gothwadtech.com/* https://gothwadtech.com/:splat 301!
-http://gothwadtech.com/* https://gothwadtech.com/:splat 301!
+https://www.bansify.com/* https://bansify.com/:splat 301!
+http://www.bansify.com/* https://bansify.com/:splat 301!
+http://bansify.com/* https://bansify.com/:splat 301!
 
 # 2) Legacy path aliases (keep old links alive, pass link equity)
 #    These used to be hash links — now they are real paths.
@@ -20,7 +20,7 @@ http://gothwadtech.com/* https://gothwadtech.com/:splat 301!
 /legacy     /ecosystem 301!
 
 # 3) www subdomain direct (fallback if protocol not matched above)
-www.gothwadtech.com/* https://gothwadtech.com/:splat 301!
+www.bansify.com/* https://bansify.com/:splat 301!
 
 # 4) SPA fallback — every unmatched path serves index.html so deep links
 #    and hard-refresh on /ecosystem, /products etc. never 404.

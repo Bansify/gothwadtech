@@ -3,9 +3,9 @@ import { Compass, MessageSquare, Send, ArrowRight, ExternalLink } from 'lucide-r
 import { Breadcrumbs } from '../components/Breadcrumbs';
 
 const PRODUCTS = [
-  { id: 'browser', name: 'Gothwad Browser', desc: '11.8 MB • 75% less RAM • TurboShield', icon: Compass, color: 'text-[#0494f4]', href: 'https://browser.gothwadtech.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.browser' },
-  { id: 'grixchat', name: 'GrixChat', desc: '<15ms • 2GB files • HD calling', icon: MessageSquare, color: 'text-emerald-600', href: 'https://grixchat.gothwadtech.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.grixchat' },
-  { id: 'indogram', name: 'Indogram', desc: '200k members • unlimited cloud', icon: Send, color: 'text-sky-600', href: 'https://indogram.gothwadtech.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.indogram' },
+  { id: 'browser', name: 'Bansify Browser', desc: '11.8 MB • 75% less RAM • TurboShield', icon: Compass, color: 'text-[#0494f4]', href: 'https://browser.bansify.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.browser' },
+  { id: 'grixchat', name: 'GrixChat', desc: '<15ms • 2GB files • HD calling', icon: MessageSquare, color: 'text-emerald-600', href: 'https://grixchat.bansify.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.grixchat' },
+  { id: 'indogram', name: 'Indogram', desc: '200k members • unlimited cloud', icon: Send, color: 'text-sky-600', href: 'https://indogram.bansify.com', play: 'https://play.google.com/store/apps/details?id=com.gothwad.indogram' },
 ];
 
 export const ProductsPage: React.FC = () => {

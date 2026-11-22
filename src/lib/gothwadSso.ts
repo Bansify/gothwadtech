@@ -103,11 +103,11 @@ async function fetchBounded(url: string, init: RequestInit, timeoutMs = DEFAULT_
 }
 
 // Try candidates in order — mirrors Drive/Mail where each app has its own Worker at its subdomain
-// Website apex has no Worker yet, so we fall back to Drive/Mail which DO have CORS for gothwadtech.com + e2b.app
+// Website apex has no Worker yet, so we fall back to Drive/Mail which DO have CORS for bansify.com + e2b.app
 const ME_CANDIDATES = [
   "/api/me", // relative — works when website deploys its own Worker (future), same as Drive
-  "https://drive.gothwadtech.com/api/me", // Drive Worker — allows gothwadtech.com, *.gothwadtech.com, e2b.app
-  "https://mail.gothwadtech.com/api/session?meta=0", // Mail identity — same CORS
+  "https://drive.bansify.com/api/me", // Drive Worker — allows bansify.com, *.bansify.com, e2b.app
+  "https://mail.bansify.com/api/session?meta=0", // Mail identity — same CORS
   `${ACCOUNTS_API_ORIGIN}/api/me`, // direct Accounts API — last resort
 ];
 
@@ -191,7 +191,7 @@ export const fetchSsoMe = fetchGothwadSession;
 async function postWithFallback(path: string, body: string, authuser: number): Promise<{ ok: boolean; error?: string }> {
   const candidates = [
     path, // relative
-    `https://drive.gothwadtech.com${path}`,
+    `https://drive.bansify.com${path}`,
     `${ACCOUNTS_API_ORIGIN}${path}`,
   ];
   for (const url of candidates) {

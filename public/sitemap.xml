@@ -7,72 +7,72 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!-- Home — most important, daily for freshness during active dev -->
   <url>
-    <loc>https://gothwadtech.com/</loc>
+    <loc>https://bansify.com/</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://gothwadtech.com/assets/brand/logo.png</image:loc>
-      <image:caption>Gothwad Tech — sovereign software collective logo</image:caption>
-      <image:title>Gothwad Tech</image:title>
+      <image:loc>https://bansify.com/assets/brand/logo.png</image:loc>
+      <image:caption>Bansify — sovereign software collective logo</image:caption>
+      <image:title>Bansify</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://gothwadtech.com/assets/brand/og-image.png</image:loc>
-      <image:caption>Gothwad Tech — everything Gothwad, in one place</image:caption>
-      <image:title>Gothwad Tech official website</image:title>
+      <image:loc>https://bansify.com/assets/brand/og-image.png</image:loc>
+      <image:caption>Bansify — everything Gothwad, in one place</image:caption>
+      <image:title>Bansify official website</image:title>
     </image:image>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gothwadtech.com/" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://gothwadtech.com/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://gothwadtech.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bansify.com/" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://bansify.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://bansify.com/" />
   </url>
   <!-- Ecosystem — main product directory, high crawl priority -->
   <url>
-    <loc>https://gothwadtech.com/ecosystem</loc>
+    <loc>https://bansify.com/ecosystem</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.95</priority>
     <image:image>
-      <image:loc>https://gothwadtech.com/assets/brand/og-image.png</image:loc>
-      <image:caption>Gothwad Ecosystem — all products</image:caption>
+      <image:loc>https://bansify.com/assets/brand/og-image.png</image:loc>
+      <image:caption>Bansify Ecosystem — all products</image:caption>
     </image:image>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://gothwadtech.com/ecosystem" />
-    <xhtml:link rel="alternate" hreflang="en-IN" href="https://gothwadtech.com/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://bansify.com/ecosystem" />
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://bansify.com/ecosystem" />
   </url>
   <!-- Products — sovereign flagships -->
   <url>
-    <loc>https://gothwadtech.com/products</loc>
+    <loc>https://bansify.com/products</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
     <image:image>
-      <image:loc>https://gothwadtech.com/assets/brand/logo.png</image:loc>
-      <image:caption>Gothwad Browser, GrixChat, Indogram — sovereign apps</image:caption>
+      <image:loc>https://bansify.com/assets/brand/logo.png</image:loc>
+      <image:caption>Bansify Browser, GrixChat, Indogram — sovereign apps</image:caption>
     </image:image>
   </url>
   <!-- Solutions -->
   <url>
-    <loc>https://gothwadtech.com/solutions</loc>
+    <loc>https://bansify.com/solutions</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <!-- Docs -->
   <url>
-    <loc>https://gothwadtech.com/docs</loc>
+    <loc>https://bansify.com/docs</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <!-- Company -->
   <url>
-    <loc>https://gothwadtech.com/company</loc>
+    <loc>https://bansify.com/company</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <!-- Contact -->
   <url>
-    <loc>https://gothwadtech.com/contact</loc>
+    <loc>https://bansify.com/contact</loc>
     <lastmod>2026-10-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>

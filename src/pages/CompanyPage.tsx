@@ -7,12 +7,12 @@ export const CompanyPage: React.FC<{ onNavigate: (p: string) => void }> = ({ onN
       <Breadcrumbs items={[{ name: 'Company', path: '/company' }]} onNavigate={onNavigate} />
       <h1 className="text-2xl font-bold text-zinc-900 dark:text-white">Bansify</h1>
       <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-2 leading-relaxed max-w-2xl">
-        Sovereign software from Jaipur, Rajasthan — founder <b>Pawan Gothwad</b>, CEO <b>Yuvkesh Meena</b>. We build browsers, messaging and business tools for Bharat. Open-source on GitHub.
+        Sovereign software from Jaipur, Rajasthan — founder <b>Pawan Bansify</b>, CEO <b>Yuvkesh Meena</b>. We build browsers, messaging and business tools for Bharat. Open-source on GitHub.
       </p>
 
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
         {[
-          { name: 'Pawan Gothwad', role: 'Founder', email: 'pawan@bansify.com' },
+          { name: 'Pawan Bansify', role: 'Founder', email: 'pawan@bansify.com' },
           { name: 'Yuvkesh Meena', role: 'CEO', email: 'ceo@bansify.com', highlight: true },
           { name: 'Vishnu Meena', role: 'CTO', email: 'vishnu@bansify.com' },
         ].map((p) => (

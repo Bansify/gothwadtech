@@ -26,7 +26,7 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
           <Logo size="xl" imageSrc="/assets/brand/logo.png" className="scale-[1.08]" />
           <h1 className="sr-only">Bansify — Official Website</h1>
           <p className="text-[14px] sm:text-[15px] text-zinc-600 dark:text-zinc-400 text-center tracking-tight">
-            Everything Gothwad, in one place.
+            Everything Bansify, in one place.
           </p>
         </div>
 

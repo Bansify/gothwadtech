@@ -23,7 +23,7 @@ export const ACCOUNTS_API_ORIGIN = (
   readViteEnv("VITE_ACCOUNTS_API_URL") || `https://api.${APP_DOMAIN}`
 ).replace(/\/+$/, "");
 
-export const ECOSYSTEM_NAME = "Gothwad";
+export const ECOSYSTEM_NAME = "Bansify";
 export const ACCOUNT_WIDGET_URL = `${ACCOUNTS_WEB_ORIGIN}/widget/account-menu.js`;
 
 export function formatGothwadEmail(username: string, domain = APP_DOMAIN): string {

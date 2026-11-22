@@ -36,7 +36,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
           All Bansify products — <span className="text-[#0494f4]">direct links</span>
         </h1>
         <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl mx-auto">
-          Every Bansify product in one place. Each card shows the live subdomain (<code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-xs">{'{host}.bansify.com'}</code>), a short description, GitHub repo and one-click access. Connected apps use your Bansify Account; standalone apps use “Sign in with Gothwad”.
+          Every Bansify product in one place. Each card shows the live subdomain (<code className="px-1 py-0.5 rounded bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-xs">{'{host}.bansify.com'}</code>), a short description, GitHub repo and one-click access. Connected apps use your Bansify Account; standalone apps use “Sign in with Bansify”.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export const EcosystemPage: React.FC<{ onNavigate?: (p: string) => void }> = () 
       </div>
 
       <div className="mt-3 text-xs text-zinc-500 dark:text-zinc-500 text-center">
-        Showing {apps.length} {apps.length === 1 ? 'product' : 'products'} • Core = Bansify Account connected (cannot be revoked) • Others = “Sign in with Gothwad” (revocable)
+        Showing {apps.length} {apps.length === 1 ? 'product' : 'products'} • Core = Bansify Account connected (cannot be revoked) • Others = “Sign in with Bansify” (revocable)
       </div>
 
       <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

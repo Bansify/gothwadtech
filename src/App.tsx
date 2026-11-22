@@ -65,7 +65,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       'Official site of Bansify — Jaipur-based sovereign collective. One account for Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI & Docs.',
     keywords:
-      'Bansify, bansify.com, gothwadtech official, Pawan Gothwad, sovereign software India, Bansify Browser, Bansify Accounts',
+      'Bansify, bansify.com, gothwadtech official, Pawan Bansify, sovereign software India, Bansify Browser, Bansify Accounts',
     breadcrumbs: [{ name: 'Home', path: '/' }],
   },
   ecosystem: {
@@ -121,7 +121,7 @@ const PAGE_META: Record<string, PageMeta> = {
     description:
       'About Bansify: mission to build sovereign tech for India. Leadership by Pawan Bansify & CEO Yuvkesh Meena from Jaipur, Rajasthan.',
     keywords:
-      'Bansify company, Pawan Gothwad, Yuvkesh Meena, about Bansify, Aatmanirbhar Bharat, Jaipur tech company',
+      'Bansify company, Pawan Bansify, Yuvkesh Meena, about Bansify, Aatmanirbhar Bharat, Jaipur tech company',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Company', path: '/company' },

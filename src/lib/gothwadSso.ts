@@ -88,7 +88,7 @@ export const buildSsoSignInUrl = buildSignInUrl;
 
 function buildAuthuserHeaders(authuser?: number): Record<string, string> {
   const h: Record<string, string> = { Accept: "application/json" };
-  if (Number.isInteger(authuser) && authuser! >= 0 && authuser! <= 5) h["X-Gothwad-Authuser"] = String(authuser);
+  if (Number.isInteger(authuser) && authuser! >= 0 && authuser! <= 5) h["X-Bansify-Authuser"] = String(authuser);
   return h;
 }
 

@@ -87,7 +87,7 @@ export const AppShortcuts: React.FC<{ compact?: boolean }> = ({ compact }) => {
 
               <div className="flex items-center justify-between pt-1">
                 <div className="text-[10px] font-mono text-zinc-500 dark:text-zinc-500 truncate">
-                  {app.host}.gothwadtech.com
+                  {app.host}.bansify.com
                 </div>
                 <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-[#0494f4]/10 text-[#0494f4] border border-[#0494f4]/20">
                   Open

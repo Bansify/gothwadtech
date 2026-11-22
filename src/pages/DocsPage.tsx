@@ -3,12 +3,12 @@ import { BookOpen, ArrowRight } from 'lucide-react';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 
 const DOCS = [
-  { title: 'Quickstart', desc: 'Run your first Gothwad app', href: 'https://docs.gothwadtech.com/docs/quickstart' },
-  { title: 'Accounts OAuth', desc: 'PKCE flow + user info', href: 'https://docs.gothwadtech.com/docs/oauth' },
-  { title: 'Mail setup', desc: 'Deploy inbox on Cloudflare', href: 'https://docs.gothwadtech.com/docs/mail-setup' },
-  { title: 'API reference', desc: 'Accounts + Mail REST', href: 'https://docs.gothwadtech.com/docs/api' },
-  { title: 'Ecosystem', desc: 'How apps connect', href: 'https://docs.gothwadtech.com/docs/architecture' },
-  { title: 'Browser', desc: 'Android TV & mobile', href: 'https://docs.gothwadtech.com/docs/browser' },
+  { title: 'Quickstart', desc: 'Run your first Bansify app', href: 'https://docs.bansify.com/docs/quickstart' },
+  { title: 'Accounts OAuth', desc: 'PKCE flow + user info', href: 'https://docs.bansify.com/docs/oauth' },
+  { title: 'Mail setup', desc: 'Deploy inbox on Cloudflare', href: 'https://docs.bansify.com/docs/mail-setup' },
+  { title: 'API reference', desc: 'Accounts + Mail REST', href: 'https://docs.bansify.com/docs/api' },
+  { title: 'Ecosystem', desc: 'How apps connect', href: 'https://docs.bansify.com/docs/architecture' },
+  { title: 'Browser', desc: 'Android TV & mobile', href: 'https://docs.bansify.com/docs/browser' },
 ];
 
 export const DocsPage: React.FC = () => {
@@ -16,7 +16,7 @@ export const DocsPage: React.FC = () => {
     <div className="max-w-[900px] mx-auto px-4 sm:px-6 py-6 sm:py-8">
       <Breadcrumbs items={[{ name: 'Docs', path: '/docs' }]} />
       <h1 className="text-2xl font-bold text-zinc-900 dark:text-white flex items-center gap-2"><BookOpen className="w-5 h-5 text-[#0494f4]" /> Docs</h1>
-      <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Source-based docs for Gothwad ecosystem.</p>
+      <p className="text-sm text-zinc-600 dark:text-zinc-400 mt-1">Source-based docs for Bansify ecosystem.</p>
 
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
         {DOCS.map((d) => (
@@ -31,7 +31,7 @@ export const DocsPage: React.FC = () => {
       </div>
 
       <div className="mt-6 text-center">
-        <a href="https://docs.gothwadtech.com" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 px-4 py-2 rounded-full bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 text-sm font-medium">
+        <a href="https://docs.bansify.com" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 px-4 py-2 rounded-full bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 text-sm font-medium">
           Open full docs <ArrowRight className="w-4 h-4" />
         </a>
       </div>

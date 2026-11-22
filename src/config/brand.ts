@@ -1,4 +1,4 @@
-export const DEFAULT_APP_DOMAIN = "gothwadtech.com";
+export const DEFAULT_APP_DOMAIN = "bansify.com";
 
 function readViteEnv(key: string): string {
   try {

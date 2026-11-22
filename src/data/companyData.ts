@@ -1,24 +1,24 @@
 export const COMPANY_INFO = {
-  name: 'Gothwad Tech',
-  domain: 'gothwadtech.com',
-  legalName: 'Gothwad Tech Private Limited',
+  name: 'Bansify',
+  domain: 'bansify.com',
+  legalName: 'Bansify Private Limited',
   tagline: 'Digital Solutions for Indian Businesses & Sovereign Tech Platforms',
   slogan: 'Empowering Indian Businesses & Building Sovereign Tech — Aatmanirbhar Bharat',
   shortDescription:
-    'One Gothwad Account for everything. Access Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI Studio and the full Gothwad ecosystem — with docs, guides and direct product links.',
+    'One Bansify Account for everything. Access Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI Studio and the full Bansify ecosystem — with docs, guides and direct product links.',
   foundedYear: '2023',
   headquarters: 'Jaipur, Rajasthan, India',
   phone: '+91 73399 04665',
   phoneRaw: '07339904665',
   whatsappNumberOnly: '917339904665',
-  email: 'contact@gothwadtech.com',
-  supportEmail: 'support@gothwadtech.com',
-  helpEmail: 'help@gothwadtech.com',
-  infoEmail: 'info@gothwadtech.com',
-  docsEmail: 'docs@gothwadtech.com',
-  founderEmail: 'pawan@gothwadtech.com',
-  ceoEmail: 'nishant@gothwadtech.com',
-  coFounderEmail: 'vishnu@gothwadtech.com',
+  email: 'contact@bansify.com',
+  supportEmail: 'support@bansify.com',
+  helpEmail: 'help@bansify.com',
+  infoEmail: 'info@bansify.com',
+  docsEmail: 'docs@bansify.com',
+  founderEmail: 'pawan@bansify.com',
+  ceoEmail: 'nishant@bansify.com',
+  coFounderEmail: 'vishnu@bansify.com',
   stats: [
     { label: 'Ecosystem Apps', value: '13+ Products', helper: 'Mail, Drive, Meet, Tube +' },
     { label: 'Open Repos', value: '30+ Repos', helper: 'Public on GitHub' },
@@ -26,11 +26,11 @@ export const COMPANY_INFO = {
     { label: 'Satisfaction', value: '4.95 / 5', helper: 'Verified client reviews' },
   ],
   socials: [
-    { label: 'GitHub', href: 'https://github.com/GothwadTech' },
+    { label: 'GitHub', href: 'https://github.com/Bansify' },
     { label: 'X (Twitter)', href: 'https://x.com/gothwadtech' },
     { label: 'LinkedIn', href: 'https://linkedin.com/company/gothwadtech' },
-    { label: 'Dribbble', href: 'https://github.com/GothwadTech' },
+    { label: 'Dribbble', href: 'https://github.com/Bansify' },
   ],
 };
 
-export const ROOT_DOMAIN = 'gothwadtech.com';
+export const ROOT_DOMAIN = 'bansify.com';

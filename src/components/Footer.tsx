@@ -12,11 +12,11 @@ export const Footer: React.FC<{ onNavigate: (page: string) => void }> = ({ onNav
           <span className="hidden sm:inline">Jaipur, Rajasthan, India</span>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
-          <a href="https://docs.gothwadtech.com" target="_blank" rel="noreferrer" className="hover:underline inline-flex items-center gap-1"><BookOpen className="w-3 h-3" /> Docs</a>
-          <a href="https://github.com/GothwadTech" target="_blank" rel="noreferrer" className="hover:underline inline-flex items-center gap-1"><Github className="w-3 h-3" /> GitHub</a>
+          <a href="https://docs.bansify.com" target="_blank" rel="noreferrer" className="hover:underline inline-flex items-center gap-1"><BookOpen className="w-3 h-3" /> Docs</a>
+          <a href="https://github.com/Bansify" target="_blank" rel="noreferrer" className="hover:underline inline-flex items-center gap-1"><Github className="w-3 h-3" /> GitHub</a>
           <button onClick={() => onNavigate('company')} className="hover:underline cursor-pointer">About</button>
           <button onClick={() => onNavigate('contact')} className="hover:underline cursor-pointer">Contact</button>
-          <a href="https://www.gothwadtech.com" target="_blank" rel="noreferrer" className="hover:underline">www.gothwadtech.com</a>
+          <a href="https://www.bansify.com" target="_blank" rel="noreferrer" className="hover:underline">www.bansify.com</a>
         </div>
       </div>
     </footer>

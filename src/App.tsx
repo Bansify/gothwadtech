@@ -61,78 +61,78 @@ type PageMeta = {
 // Exhaustive per-route meta — 55-60 char titles, 150-160 char descriptions, brand included
 const PAGE_META: Record<string, PageMeta> = {
   home: {
-    title: 'Gothwad Tech — Official Website | Sovereign Software from India',
+    title: 'Bansify — Official Website | Sovereign Software from India',
     description:
-      'Official site of Gothwad Tech — Jaipur-based sovereign collective. One account for Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI & Docs.',
+      'Official site of Bansify — Jaipur-based sovereign collective. One account for Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI & Docs.',
     keywords:
-      'Gothwad Tech, gothwadtech.com, gothwadtech official, Pawan Gothwad, sovereign software India, Gothwad Browser, Gothwad Accounts',
+      'Bansify, bansify.com, gothwadtech official, Pawan Gothwad, sovereign software India, Bansify Browser, Bansify Accounts',
     breadcrumbs: [{ name: 'Home', path: '/' }],
   },
   ecosystem: {
-    title: 'Gothwad Ecosystem — All Products & Direct Links | Gothwad Tech',
+    title: 'Bansify Ecosystem — All Products & Direct Links | Bansify',
     description:
-      'Browse the full Gothwad ecosystem — Accounts, Mail, Drive, Meet, Tube, Browser, GrixChat, Indogram, Launcher, Education, AI & more with live links.',
+      'Browse the full Bansify ecosystem — Accounts, Mail, Drive, Meet, Tube, Browser, GrixChat, Indogram, Launcher, Education, AI & more with live links.',
     keywords:
-      'Gothwad ecosystem, Gothwad products, gothwadtech.com products, Gothwad Mail, Gothwad Drive, Gothwad Tube, GrixChat, Indogram',
+      'Bansify ecosystem, Bansify products, bansify.com products, Bansify Mail, Bansify Drive, Bansify Tube, GrixChat, Indogram',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Ecosystem', path: '/ecosystem' },
     ],
     jsonLdExtra: {
       '@type': 'CollectionPage',
-      name: 'Gothwad Ecosystem Directory',
+      name: 'Bansify Ecosystem Directory',
     },
   },
   products: {
-    title: 'Products — Browser, GrixChat, Indogram | Gothwad Tech',
+    title: 'Products — Browser, GrixChat, Indogram | Bansify',
     description:
-      'Sovereign apps by Gothwad Tech: Browser (11.8 MB, 75% less RAM), GrixChat (<15ms), Indogram (200k members) plus Mail, Drive, Meet & Tube.',
+      'Sovereign apps by Bansify: Browser (11.8 MB, 75% less RAM), GrixChat (<15ms), Indogram (200k members) plus Mail, Drive, Meet & Tube.',
     keywords:
-      'Gothwad Browser, GrixChat, Indogram, sovereign browser India, Gothwad products, Aatmanirbhar Bharat apps',
+      'Bansify Browser, GrixChat, Indogram, sovereign browser India, Bansify products, Aatmanirbhar Bharat apps',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Products', path: '/products' },
     ],
   },
   solutions: {
-    title: 'Solutions — School ERP, Restaurant POS & Enterprise | Gothwad Tech',
+    title: 'Solutions — School ERP, Restaurant POS & Enterprise | Bansify',
     description:
       'Solutions for Bharat: School ERP, Restaurant POS & ordering, Kirana billing & Khata, Business CRM & custom sovereign browser engines.',
     keywords:
-      'Gothwad solutions, school ERP India, restaurant POS, shop billing, business ERP, sovereign systems, Gothwad Tech solutions',
+      'Bansify solutions, school ERP India, restaurant POS, shop billing, business ERP, sovereign systems, Bansify solutions',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Solutions', path: '/solutions' },
     ],
   },
   docs: {
-    title: 'Docs — Developer Documentation | Gothwad Tech',
+    title: 'Docs — Developer Documentation | Bansify',
     description:
-      'Gothwad Tech developer docs: Accounts OAuth PKCE, Mail REST, Tube web, GrixChat, Meet, Cloudflare deploy — source-cited guides.',
+      'Bansify developer docs: Accounts OAuth PKCE, Mail REST, Tube web, GrixChat, Meet, Cloudflare deploy — source-cited guides.',
     keywords:
-      'Gothwad docs, Gothwad documentation, docs.gothwadtech.com, Gothwad Accounts OAuth, Gothwad Mail API',
+      'Bansify docs, Bansify documentation, docs.bansify.com, Bansify Accounts OAuth, Bansify Mail API',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Docs', path: '/docs' },
     ],
   },
   company: {
-    title: 'Company — Leadership & Aatmanirbhar Mission | Gothwad Tech',
+    title: 'Company — Leadership & Aatmanirbhar Mission | Bansify',
     description:
-      'About Gothwad Tech: mission to build sovereign tech for India. Leadership by Pawan Gothwad & CEO Yuvkesh Meena from Jaipur, Rajasthan.',
+      'About Bansify: mission to build sovereign tech for India. Leadership by Pawan Bansify & CEO Yuvkesh Meena from Jaipur, Rajasthan.',
     keywords:
-      'Gothwad Tech company, Pawan Gothwad, Yuvkesh Meena, about Gothwad Tech, Aatmanirbhar Bharat, Jaipur tech company',
+      'Bansify company, Pawan Gothwad, Yuvkesh Meena, about Bansify, Aatmanirbhar Bharat, Jaipur tech company',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Company', path: '/company' },
     ],
   },
   contact: {
-    title: 'Contact — Talk to Gothwad Tech | Support & Business',
+    title: 'Contact — Talk to Bansify | Support & Business',
     description:
-      'Contact Gothwad Tech: contact@gothwadtech.com, +91 73399 04665 WhatsApp/Call. Business, support, help & media desks — reply in 2-4 hours.',
+      'Contact Bansify: contact@bansify.com, +91 73399 04665 WhatsApp/Call. Business, support, help & media desks — reply in 2-4 hours.',
     keywords:
-      'contact Gothwad Tech, Gothwad Tech phone, Gothwad support, Gothwad help, pawan@gothwadtech.com, contact@gothwadtech.com',
+      'contact Bansify, Bansify phone, Bansify support, Bansify help, pawan@bansify.com, contact@bansify.com',
     breadcrumbs: [
       { name: 'Home', path: '/' },
       { name: 'Contact', path: '/contact' },
@@ -179,12 +179,12 @@ function buildBreadcrumbJsonLd(breadcrumbs: { name: string; path: string }[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': 'https://gothwadtech.com/#breadcrumb',
+    '@id': 'https://bansify.com/#breadcrumb',
     itemListElement: breadcrumbs.map((b, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       name: b.name,
-      item: `https://gothwadtech.com${b.path}`,
+      item: `https://bansify.com${b.path}`,
     })),
   };
 }
@@ -197,13 +197,13 @@ function buildWebPageJsonLd(page: string, meta: PageMeta, canonical: string) {
     url: canonical,
     name: meta.title,
     description: meta.description,
-    isPartOf: { '@id': 'https://gothwadtech.com/#website' },
-    about: { '@id': 'https://gothwadtech.com/#organization' },
+    isPartOf: { '@id': 'https://bansify.com/#website' },
+    about: { '@id': 'https://bansify.com/#organization' },
     inLanguage: 'en-IN',
     datePublished: '2023-01-01T00:00:00+05:30',
     dateModified: '2026-10-24T00:00:00+05:30',
-    primaryImageOfPage: { '@id': 'https://gothwadtech.com/#logo' },
-    breadcrumb: { '@id': 'https://gothwadtech.com/#breadcrumb' },
+    primaryImageOfPage: { '@id': 'https://bansify.com/#logo' },
+    breadcrumb: { '@id': 'https://bansify.com/#breadcrumb' },
     ...(meta.jsonLdExtra ?? {}),
   };
   // attach canonical breadcrumb id
@@ -254,8 +254,8 @@ function AppContent() {
 
   useEffect(() => {
     const meta = PAGE_META[activePage] ?? PAGE_META.home;
-    const canonical = `https://gothwadtech.com${pathForPage(activePage)}`;
-    const ogImage = 'https://gothwadtech.com/assets/brand/og-image.png';
+    const canonical = `https://bansify.com${pathForPage(activePage)}`;
+    const ogImage = 'https://bansify.com/assets/brand/og-image.png';
 
     // Core title & description
     document.title = meta.title;
@@ -296,8 +296,8 @@ function AppContent() {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
         '@id': `${canonical}#products`,
-        name: 'Gothwad Ecosystem — All Products',
-        description: 'Complete list of Gothwad Tech products: Accounts, Mail, Drive, Meet, Tube, Browser, GrixChat, Indogram, Launcher, Manager, Education, AI and more.',
+        name: 'Bansify Ecosystem — All Products',
+        description: 'Complete list of Bansify products: Accounts, Mail, Drive, Meet, Tube, Browser, GrixChat, Indogram, Launcher, Manager, Education, AI and more.',
         numberOfItems: 25,
         itemListElement: [
           'Accounts',
@@ -326,7 +326,7 @@ function AppContent() {
           '@type': 'ListItem',
           position: i + 1,
           name,
-          url: `https://gothwadtech.com/ecosystem#${name.toLowerCase().replace(/\s/g, '-')}`,
+          url: `https://bansify.com/ecosystem#${name.toLowerCase().replace(/\s/g, '-')}`,
         })),
       });
     } else {
@@ -341,8 +341,8 @@ function AppContent() {
         url: canonical,
         name: meta.title,
         description: meta.description,
-        isPartOf: { '@id': 'https://gothwadtech.com/#website' },
-        about: { '@id': 'https://gothwadtech.com/#organization' },
+        isPartOf: { '@id': 'https://bansify.com/#website' },
+        about: { '@id': 'https://bansify.com/#organization' },
       });
     } else {
       removeJsonLd('ld-contact');
@@ -356,9 +356,9 @@ function AppContent() {
         url: canonical,
         name: meta.title,
         description: meta.description,
-        isPartOf: { '@id': 'https://gothwadtech.com/#website' },
-        about: { '@id': 'https://gothwadtech.com/#organization' },
-        mainEntity: { '@id': 'https://gothwadtech.com/#organization' },
+        isPartOf: { '@id': 'https://bansify.com/#website' },
+        about: { '@id': 'https://bansify.com/#organization' },
+        mainEntity: { '@id': 'https://bansify.com/#organization' },
       });
     } else {
       removeJsonLd('ld-about');

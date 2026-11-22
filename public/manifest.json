@@ -1,8 +1,8 @@
 {
-  "id": "https://gothwadtech.com/",
-  "name": "Gothwad Tech — Official Website",
-  "short_name": "Gothwad Tech",
-  "description": "Official portal of Gothwad Tech — one account for Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI and Docs. Sovereign tech from India.",
+  "id": "https://bansify.com/",
+  "name": "Bansify — Official Website",
+  "short_name": "Bansify",
+  "description": "Official portal of Bansify — one account for Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI and Docs. Sovereign tech from India.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -32,13 +32,13 @@
     { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
   ],
   "screenshots": [
-    { "src": "/assets/brand/og-image.png", "type": "image/png", "sizes": "512x512", "form_factor": "wide", "label": "Gothwad Tech — everything Gothwad, in one place" }
+    { "src": "/assets/brand/og-image.png", "type": "image/png", "sizes": "512x512", "form_factor": "wide", "label": "Bansify — everything Gothwad, in one place" }
   ],
   "shortcuts": [
-    { "name": "Ecosystem — All Products", "short_name": "Ecosystem", "description": "Browse all Gothwad products with direct links", "url": "/ecosystem", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Gothwad Mail", "short_name": "Mail", "description": "Open your Gothwad inbox", "url": "https://mail.gothwadtech.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Gothwad Docs", "short_name": "Docs", "description": "Developer documentation", "url": "https://docs.gothwadtech.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Gothwad Tube", "short_name": "Tube", "description": "A better way to watch", "url": "https://tube.gothwadtech.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] }
+    { "name": "Ecosystem — All Products", "short_name": "Ecosystem", "description": "Browse all Bansify products with direct links", "url": "/ecosystem", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bansify Mail", "short_name": "Mail", "description": "Open your Bansify inbox", "url": "https://mail.bansify.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bansify Docs", "short_name": "Docs", "description": "Developer documentation", "url": "https://docs.bansify.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bansify Tube", "short_name": "Tube", "description": "A better way to watch", "url": "https://tube.bansify.com", "icons": [{ "src": "/assets/icons/icon-192.png", "sizes": "192x192" }] }
   ],
   "related_applications": [],
   "prefer_related_applications": false,

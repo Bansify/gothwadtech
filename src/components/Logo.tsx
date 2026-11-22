@@ -66,7 +66,7 @@ export const Logo: React.FC<LogoProps> = ({
         <div className="flex flex-col justify-center">
           <div className={`font-black leading-none flex items-center gap-1.5 uppercase font-sans ${textSizes[size]}`}>
             <span className="text-zinc-950 dark:text-white transition-colors font-black tracking-tight">
-              GOTHWAD
+              BANSIFY
             </span>
             <span className="text-[#0494f4] font-black tracking-tight">TECH</span>
           </div>

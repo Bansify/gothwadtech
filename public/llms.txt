@@ -1,30 +1,30 @@
-# Gothwad Tech — llms.txt
-# https://gothwadtech.com/llms.txt
+# Bansify — llms.txt
+# https://bansify.com/llms.txt
 # Machine-readable overview for LLM & AI crawlers.
 
-> Gothwad Tech is India's sovereign software collective from Jaipur, Rajasthan (founded 2023, founder Pawan Gothwad, CEO Yuvkesh Meena).
-> One Gothwad Account powers a unified ecosystem: Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI Studio, Remote Desktop, Docs and more.
-> All products are documented and mostly open-source at https://github.com/GothwadTech.
+> Bansify is India's sovereign software collective from Jaipur, Rajasthan (founded 2023, founder Pawan Gothwad, CEO Yuvkesh Meena).
+> One Bansify Account powers a unified ecosystem: Mail, Drive, Meet, Store, Tube, GrixChat, Indogram, Browser, Education, AI Studio, Remote Desktop, Docs and more.
+> All products are documented and mostly open-source at https://github.com/Bansify.
 
-## Official domains (canonical is https://gothwadtech.com — non-www)
-- Main: https://gothwadtech.com
-- Accounts (auth): https://accounts.gothwadtech.com
-- Mail: https://mail.gothwadtech.com
-- Drive: https://drive.gothwadtech.com
-- Meet: https://meet.gothwadtech.com
-- Calendar: https://calender.gothwadtech.com (note spelling in DNS)
-- Contacts: https://contacts.gothwadtech.com
-- Notes: https://notes.gothwadtech.com
-- Store: https://store.gothwadtech.com
-- Tube: https://tube.gothwadtech.com
-- GrixChat: https://grixchat.gothwadtech.com
-- Indogram: https://indogram.gothwadtech.com
-- Browser: https://browser.gothwadtech.com
-- Education: https://education.gothwadtech.com
-- AI Studio: https://ai.gothwadtech.com
-- Remote Desktop: https://remotedesk.gothwadtech.com
-- Docs: https://docs.gothwadtech.com
-- CEO: https://ceo.gothwadtech.com
+## Official domains (canonical is https://bansify.com — non-www)
+- Main: https://bansify.com
+- Accounts (auth): https://accounts.bansify.com
+- Mail: https://mail.bansify.com
+- Drive: https://drive.bansify.com
+- Meet: https://meet.bansify.com
+- Calendar: https://calender.bansify.com (note spelling in DNS)
+- Contacts: https://contacts.bansify.com
+- Notes: https://notes.bansify.com
+- Store: https://store.bansify.com
+- Tube: https://tube.bansify.com
+- GrixChat: https://grixchat.bansify.com
+- Indogram: https://indogram.bansify.com
+- Browser: https://browser.bansify.com
+- Education: https://education.bansify.com
+- AI Studio: https://ai.bansify.com
+- Remote Desktop: https://remotedesk.bansify.com
+- Docs: https://docs.bansify.com
+- CEO: https://ceo.bansify.com
 
 ## Site sections
 - / : Home — hero, quick-access tiles, search + filter shortcuts
@@ -36,26 +36,26 @@
 - /contact : Business, support, help, info inboxes + founder contacts + WhatsApp
 
 ## Structured data
-- Organization JSON-LD at https://gothwadtech.com/#organization
+- Organization JSON-LD at https://bansify.com/#organization
 - WebSite with SearchAction (query: /ecosystem?q={search_term_string})
 - BreadcrumbList per route
 - ItemList for ecosystem products
 
 ## Docs & source
-- Docs site: https://docs.gothwadtech.com
-- Docs repo: https://github.com/GothwadTech/docs (source-cited, SOURCES.md)
-- Main org: https://github.com/GothwadTech
-- This website repo: https://github.com/GothwadTech/website
+- Docs site: https://docs.bansify.com
+- Docs repo: https://github.com/Bansify/docs (source-cited, SOURCES.md)
+- Main org: https://github.com/Bansify
+- This website repo: https://github.com/Bansify/website
 
 ## Brand & contact
-- Logo: https://gothwadtech.com/assets/brand/logo.png
-- OG image: https://gothwadtech.com/assets/brand/og-image.png
-- Contact: contact@gothwadtech.com, pawan@gothwadtech.com, +91 73399 04665
+- Logo: https://bansify.com/assets/brand/logo.png
+- OG image: https://bansify.com/assets/brand/og-image.png
+- Contact: contact@bansify.com, pawan@bansify.com, +91 73399 04665
 - Address: Jaipur, Rajasthan, India
 
 ## Markdown for AI
 See also:
-- https://gothwadtech.com/sitemap.xml
-- https://gothwadtech.com/robots.txt
-- https://gothwadtech.com/humans.txt
-- https://gothwadtech.com/manifest.json
+- https://bansify.com/sitemap.xml
+- https://bansify.com/robots.txt
+- https://bansify.com/humans.txt
+- https://bansify.com/manifest.json

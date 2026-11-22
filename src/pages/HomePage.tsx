@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import { Search, ArrowUpRight, Grid2X2, Github, BookOpen } from 'lucide-react';
 import { Logo } from '../components/Logo';
-import { ECOSYSTEM_APPS } from '../data/ecosystem';
+import { PUBLIC_APPS } from '../data/apps';
+import { AppRow } from '../components/AppRow';
 
 export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavigate }) => {
   const [q, setQ] = useState('');
 
-  const filtered = ECOSYSTEM_APPS.filter((app) => {
+  const filtered = PUBLIC_APPS.filter((app) => {
     if (!q.trim()) return true;
     const s = q.toLowerCase();
     return (
       app.name.toLowerCase().includes(s) ||
-      app.tagline.toLowerCase().includes(s) ||
-      app.host.toLowerCase().includes(s) ||
-      app.description.toLowerCase().includes(s)
+      app.summary.toLowerCase().includes(s) ||
+      app.platform.includes(s)
     );
   });
 
@@ -79,30 +79,11 @@ export const HomePage: React.FC<{ onNavigate: (p: string) => void }> = ({ onNavi
             </button>
           </div>
 
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3 sm:gap-4">
-            {filtered.map((app) => {
-              const Icon = app.icon;
-              return (
-                <a
-                  key={app.id}
-                  href={app.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group flex flex-col items-center gap-2 p-3 rounded-2xl hover:bg-zinc-100 dark:hover:bg-zinc-900 border border-transparent hover:border-zinc-200 dark:hover:border-zinc-800 transition-colors"
-                >
-                  <div className={`w-12 h-12 rounded-2xl border flex items-center justify-center shadow-sm ${app.iconBg} ${app.iconText}`}>
-                    <Icon className="w-6 h-6" />
-                  </div>
-                  <span className="text-[11px] font-medium text-zinc-700 dark:text-zinc-300 text-center leading-tight line-clamp-2 min-h-[28px]">
-                    {app.name}
-                  </span>
-                  <span className="text-[10px] font-mono text-zinc-400 text-center truncate w-full hidden sm:block">
-                    {app.host}.bansify.com
-                  </span>
-                </a>
-              );
-            })}
-          </div>
+          <ul className="space-y-3">
+            {filtered.map((app) => (
+              <AppRow key={`${app.platform}-${app.id}`} app={app} />
+            ))}
+          </ul>
 
           {filtered.length === 0 && (
             <div className="text-center py-10">

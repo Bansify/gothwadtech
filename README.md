@@ -64,3 +64,15 @@ npm run typecheck
 - GitHub: https://github.com/Bansify
 
 © 2026 Bansify Private Limited. Aatmanirbhar Bharat.
+
+## 📚 Documentation
+
+| Document | Purpose |
+|---|---|
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Routes, components, data files, theme, account hook |
+| [docs/BUILD.md](docs/BUILD.md) | Node/npm, scripts, environment variables |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Cloudflare Pages, redirects, headers, DNS |
+| [docs/BRANDING.md](docs/BRANDING.md) | The official logo and every asset generated from it |
+| [docs/SEO.md](docs/SEO.md) | Meta tags, structured data, sitemap, canonical rules |
+| [docs/CONTENT.md](docs/CONTENT.md) | Adding or editing a product, copy rules |
+| [CONTRIBUTING.md](CONTRIBUTING.md) · [SECURITY.md](SECURITY.md) · [CHANGELOG.md](CHANGELOG.md) | Contributing, reporting, history |
